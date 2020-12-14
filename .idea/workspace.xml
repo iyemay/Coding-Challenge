@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4ac087-ed88-40c2-92c4-bebdae722c0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LastComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/QuestionsComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/QuizComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StartComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuestionsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuizComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuizComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +56,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607928230380</updated>
-      <workItem from="1607928231518" duration="3200000" />
+      <workItem from="1607928231518" duration="7907000" />
+      <workItem from="1607937116290" duration="6393000" />
+      <workItem from="1607943534952" duration="1599000" />
+      <workItem from="1607959958458" duration="823000" />
+      <workItem from="1607960800885" duration="334000" />
+      <workItem from="1607961159589" duration="47000" />
+      <workItem from="1607961226298" duration="5271000" />
     </task>
+    <task id="LOCAL-00001" summary="Create the project with JavaScript">
+      <created>1607931655131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607931655131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create the project with JavaScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the project with JavaScript" />
   </component>
 </project>
