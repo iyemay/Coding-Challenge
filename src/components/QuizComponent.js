@@ -19,7 +19,6 @@ class QuizComponent extends Component {
         this.props.goToLast();
     }
 
-
     render () {
 
         const challenges =  this.props.quiz.filter(function(challenge) {

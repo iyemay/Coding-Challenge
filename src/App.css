@@ -112,3 +112,25 @@
   border: 1px solid rgba(0,0,0,0.2);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+.change-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35rem !important;
+  margin-right: 2.5rem;
+}
+
+.back-style {
+  padding-right: .5rem !important;
+  cursor: pointer;
+}
+
+.next-style {
+  cursor: pointer;
+}
+
+.back-style:hover, .next-style:hover {
+  color: #008CBA !important;
+}
+

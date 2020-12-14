@@ -37,6 +37,10 @@ export default class QuestionsComponent extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="change-page-container">
+                        <i className="fa fa-arrow-left back-style" onClick={this.props.goToStart} />
+                        <i className="fa fa-arrow-right next-style" onClick={this.props.goToLast} />
+                    </div>
                 </div>)
                 : (<div style={{visibility: "hidden"}}/>)
         );
