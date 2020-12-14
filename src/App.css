@@ -1,38 +1,114 @@
-.App {
+.start-container {
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  width: 50%;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon-start {
+  font-size: 2.8rem !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.size-title {
+  font-size: 1.8rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.start-button {
+  background-color: #008CBA;
+  text-decoration: none;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.content-container {
+  margin: auto;
+  margin-top: 3rem;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.header-last-container {
+  color: #008CBA !important;
+}
+
+.text-question {
+  font-size: 1.6rem !important;
+}
+
+.text-answer {
+  font-size: 1.3rem !important;
+  color: #008CBA !important;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.question-size {
+  font-size: 2.8rem !important;
+}
+
+.strong-word {
+  font-weight: bold;
+  color: #008CBA !important;
+}
+
+#question-answers-container .answer-option {
+  font-size: 1.5rem !important;
+  margin: .5rem;
+  padding-left: 2.5rem;
+}
+
+.help-answer {
+  display: flex;
+  flex-direction: row;
+}
+
+.answer-container {
+  width: 65%;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.answer-box {
+  border: .15rem solid gray !important;
+  border-radius: 2.5rem;
+  transition: transform .2s;
+  margin-bottom: .8rem;
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.answer-box:hover {
+  transform: scale(1.3);
+  border: .15rem solid #008CBA !important;
+}
+
+.answer-number {
+  margin: .5rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 5%;
+  justify-content: start;
+  align-self: center;
+}
+
+.help-container {
+  display: flex;
+  width: 10%;
+  justify-content: start;
+  margin-top: 23rem;
+  padding: .5rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
